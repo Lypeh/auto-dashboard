@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Auto Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>⚙️ Auto Dashboard</h1>
+
+<div class="card">
+  <h2>Status do Sistema</h2>
+  <p>CPU: <span id="cpu">--</span></p>
+  <p>Memória: <span id="memoria">--</span> MB</p>
+  <p>Uptime: <span id="uptime">--</span>s</p>
+</div>
+
+<div class="card">
+  <h2>Automação</h2>
+  <button onclick="rodar()">Executar Automação</button>
+  <p id="resultado"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
